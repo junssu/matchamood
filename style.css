@@ -14,3 +14,19 @@ p {
   color: #555;
   font-size: 18px;
 }
+
+
+@media (max-width: 600px) {
+  body {
+    margin-top: 50px; /* 위쪽 여백 줄임 */
+    padding: 0 15px;  /* 좌우 여백 추가해서 글이 너무 붙지 않게 */
+  }
+
+  h1 {
+    font-size: 28px; /* 제목 크기 줄임 */
+  }
+
+  p {
+    font-size: 16px; /* 본문 글자 크기도 조금 줄임 */
+  }
+}
